@@ -190,10 +190,10 @@ if __name__ == "__main__":
                 if args.show_start:
                     add_circle_marker(
                         base_env.viewer,
-                        episode_start + np.array([0.8, 0.0]),
+                        episode_start,
                         rgba=[0.2, 0.4, 1.0, 0.95],
-                        radius=0.5,
-                        height=1.2,
+                        radius=0.2,
+                        height=0.2,
                         label="start",
                     )
 
@@ -202,8 +202,8 @@ if __name__ == "__main__":
                         base_env.viewer,
                         episode_goal,
                         rgba=[1.0, 0.2, 0.2, 0.95],
-                        radius=0.6,
-                        height=1.2,
+                        radius=0.2,
+                        height=0.2,
                         label="goal",
                     )
 

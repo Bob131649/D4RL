@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Important Notice
 
 ### All of online environments libraries in D4RL have been moved [Gymnasium](https://github.com/Farama-Foundation/Gymnasium), [MiniGrid](https://github.com/Farama-Foundation/MiniGrid) and [Gymnasium-Robotics](https://github.com/Farama-Foundation/Gymnasium-Robotics), and all offline datasets in DR4L have been moved to [Minari](https://github.com/Farama-Foundation/Minari). These new versions include large bug fixes, new versions of Python, and are where all new development will continue. Please upgrade these libraries as soon as you're able to do so. If you'd like to read more about the story behind this switch, please check out [this blog post](https://farama.org/Announcing-Minari).
@@ -120,3 +121,7 @@ Please use the following bibtex for citations:
 Unless otherwise noted, all datasets are licensed under the [Creative Commons Attribution 4.0 License (CC BY)](https://creativecommons.org/licenses/by/4.0/), and code is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 
+=======
+# D4RL
+D4RL benchmark
+>>>>>>> 01016beaea3b22b5a8fc5ffd923cc7e0df335d74
