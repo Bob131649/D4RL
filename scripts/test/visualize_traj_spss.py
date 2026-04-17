@@ -113,7 +113,7 @@ def main():
     parser.add_argument(
         "--max_points",
         type=int,
-        default=10000,
+        default=1000000,
         help="Maximum number of points to draw. Randomly subsamples if dataset is larger.",
     )
     parser.add_argument(
@@ -137,19 +137,19 @@ def main():
     parser.add_argument(
         "--alpha",
         type=float,
-        default=0.25,
+        default=0.05,
         help="Marker transparency.",
     )
     parser.add_argument(
         "--size",
         type=float,
-        default=40,
+        default=1,
         help="Marker size.",
     )
     parser.add_argument(
         "--linewidths",
         type=float,
-        default=1.5,
+        default=1.0,
         help="Marker line width.",
     )
     parser.add_argument(
